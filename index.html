@@ -6,6 +6,15 @@
     <title>Souvik Sahana</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="modal.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim:wght@400&display=swap" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+<link rel="manifest" href="./favicon/site.webmanifest">
+
 </head>
 <body>
     <!-- modal -->
@@ -63,7 +72,7 @@
     <!-- Detail Section -->
     <div class="detail" id="home">
         <div class="dp">
-            <img src="images/souviksahana.jpg" alt="souvik sahana" class="dp_img">
+            <img src="images/souvik2.jpeg" alt="souvik sahana" class="dp_img" >
         </div>
         <div class="description">
             <div class="greeting">
@@ -298,7 +307,7 @@
                 <form id="myForm">
                     <div class="input1">
                         <label for="name" class="inp_title">Name* :-</label>
-                        <input type="text" name="name" id="name" class="inp_data" placeholder="Enter Name Here">
+                        <input type="text" name="name" id="name" class="inp_data" placeholder="Enter Name Here" required>
                     </div>
                     <div class="input1">
                         <label for="contact" class="inp_title">Contact Number :-</label>
@@ -306,18 +315,18 @@
                     </div>
                     <div class="input2">
                         <label for="reason" class="inp_title">Reason for contact* :-</label>
-                        <input type="text" name="reason" id="reason" class="inp_data" placeholder="Enter Reason">
+                        <input type="text" name="reason" id="reason" class="inp_data" placeholder="Enter Reason" required>
                     </div>
                     <div class="input2">
                         <label for="description" class="inp_title">Description* :-</label>
                         <!-- <input type="text" name="description" id="description" class="inp_data" placeholder="Write about your thought..."> -->
-                        <textarea name="description" id="description"  class="inp_data textarea" placeholder="Write about your thought..." ></textarea>
+                        <textarea name="description" id="description"  class="inp_data textarea" placeholder="Write about your thought..." required></textarea>
                     </div>
                     <button id="Submit">Submit</button>
                 </form>
             <div class="address">
                 <ol class="address_list">
-                    <li>Souvik Sahana</li>
+                    <!-- <li>Souvik Sahana</li> -->
                     <li style="align-items: center; display: flex; gap: 5px;"><img src="icons/Mail.png" alt="mail" class="icon_img_1"> souviksahana35@gmail.com</li>
                     <li ><a href="https://github.com/SouvikSahana" style="align-items: center; display: flex; gap: 10px; text-decoration: none; "><img src="icons/icon _github.png" alt="github" class="icon_img_1" > @SouvikSahana</a></li>
                 <li><a href="https://www.linkedin.com/in/sahana-envitext/" style="align-items: center; display: flex; gap: 10px; text-decoration: none; "><img src="icons/icon _linkedin.png" alt="linkdln" class="icon_img_1">Souvik Sahana</a></li>
@@ -336,5 +345,6 @@
 
 
     <script src="modal.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
