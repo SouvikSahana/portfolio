@@ -5,8 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Souvik Sahana</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="modal.css">
 </head>
 <body>
+    <!-- modal -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+          <div class="modal-body">
+            <ol class="menu_navbar">
+                <li class="nav_item closer"><a href="#home">Home</a></li>
+                <li class="nav_item closer"><a href="#skill">Skills</a></li>
+                <li class="nav_item closer"><a href="#project">Projects</a></li>
+                <li class="nav_item closer"><a href="#service">Services</a></li>
+                <li class="nav_item closer"><a href="#blog">Blogs</a></li>
+                <li class="nav_item closer"><a href="https://github.com/SouvikSahana"><img src="icons/icon _github.png" alt="github" class="icon_img" ></a></li>
+                <li class="nav_item closer"><a href="https://www.linkedin.com/in/sahana-envitext/"><img src="icons/icon _linkedin.png" alt="linkdln" class="icon_img"></a></li>
+                <li class="nav_item closer"><a href="https://twitter.com/envitext"><img src="icons/icon _twitterbird.png" alt="X" class="icon_img"></a></li>
+                <li class="nav_item closer"><a href="https://www.instagram.com/_souvik.sahana_/"><img src="icons/icon _instagram.png" alt="instagram" class="icon_img"></a></li>
+                <li class="nav_item closer"><a href="https://www.facebook.com/hellowworld.5124/"><img src="icons/icon _facebook.png" alt="facebook" class="icon_img"></a></li>
+            </ol>
+          </div>
+        </div>
+      </div>
+
     <!-- header section -->
     <div class="header" style="z-index: 1000;">
         <div class="name">
@@ -33,7 +55,7 @@
                 <li class="nav_item"><a href="https://www.facebook.com/hellowworld.5124/"><img src="icons/icon _facebook.png" alt="facebook" class="icon_img"></a></li>
             </ol>
         </div>
-        <div class="menu">
+        <div class="menu" id="menu">
             menu
         </div>
     </div>
@@ -311,5 +333,8 @@
     <div class="copyright_section">
         © Copyright 2023 - Developed by Souvik Sahana. All right reserved.
     </div>
+
+
+    <script src="modal.js"></script>
 </body>
 </html>
